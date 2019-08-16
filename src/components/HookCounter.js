@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 function HookCounter() {
+  //initialCount is  initial state of the component.
+  //setCount is  a emthod to update  using useState Hook.
   const initialCount = 0;
   const [count, setCount] = useState(initialCount);
   return (
